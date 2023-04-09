@@ -1,0 +1,377 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color:#FFFFFF
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+}
+ul,ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+ img{
+    display: block;
+ }
+ button{
+    cursor: pointer;
+ }
+ .container{
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+ }
+/*--------------- Header ---------------*/
+
+.page-header-conteiner {
+    display: flex;
+ }
+ .page-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }
+ .page-nav{
+    display: flex;
+    margin-right: auto;
+ }
+ .menu,
+ .contacts{
+    display: flex;
+    
+ }
+.logo-header {
+font-family: 'Raleway',
+ sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+} 
+.logo-header-blue-black {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.link-nav:is(:hover,:focus) {
+    color: #404bbf;
+}
+.link-nav {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+
+.contacts {  
+font-style: normal;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+gap: 40px;
+}
+.contact-link-header {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.link:is(:hover, :focus){
+    color: #404bbf;}
+/*--------------- Header ---------------*/
+/*--------------- Hero ---------------*/
+.banner-box {
+    background-color: #2e2f42;
+    padding: 188px 0px;
+}
+.section-hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-align: center;
+        width: 496px;
+        margin: 0 auto;
+
+    }
+    .button-banner:is(:hover, :focus){
+    background-color: #404BBF;
+    }
+
+    .button-banner {cursor: pointer;
+        font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #FFFFFF;
+            background-color: #4D5AE5;
+            cursor: pointer;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            text-transform: capitalize;
+            border-radius: 4px;
+            display: block;
+            margin: 0 auto;
+            border: none;
+            padding: 16px 32px;
+            margin-top: 48px;
+    }
+    /*--------------- Hero ---------------*/
+    /*--------------- Work ---------------*/
+.section-company{
+
+padding-top: 120px;
+padding-bottom: 120px;
+
+
+}
+.work-company{
+    display: flex;
+    margin-right: 24px;
+    gap: 24px;
+
+}
+.company-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-bottom: 8px;
+
+}
+.company-title-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    width: 264px;
+}
+.section-works{
+padding-bottom: 120px;
+}
+.works{
+    display: flex;
+    gap: 24px;
+}
+.section-works-title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    color: #2E2F42;
+}
+.section-team-four{
+    background-color: #F4F4FD;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+.team-section{
+    display: flex;
+    gap: 24px;
+}
+
+.section-team-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+text-align: center;
+}
+.section-four-text-title{
+background-color: #FFFFFF;
+width: 264px;
+height: 380px;
+}
+.section-list{
+    background-color: #FFFFFF;
+    padding: 32px 16px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+      .section-team-text {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+        margin-top: 8px;
+      }
+       
+.logo-footer {
+    font-family: 'Raleway',
+    sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+}
+.logo-footer-studio {
+    font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #F4F4FD;
+}
+.footer-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    margin-top: 16px;
+    width: 264px;
+}
+.footer-background {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color:#2e2f42
+}
+/*--------------- Portfolio ---------------*/
+.page-header-portfolio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.button-list {
+    list-style: none;
+}
+.button-navigation {
+    cursor: pointer;
+    background-color: #f5f4fa;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button-navigation:hover,
+.button-navigation:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+/*--------------- HEADER ---------------*/
+.header-portfolio{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display: flex;
+   
+    border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.header-menu{
+    display: flex;    
+}
+.email-telefon{
+    display: flex;
+    margin-right: 0;
+
+}
+.menu{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+        text-decoration: none;
+        gap: 40px;
+        margin-left: 76px;
+}
+/*--------------- HEADER ---------------*/
+/*--------------- Foto ---------------*/
+.portfolio-header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+/*--------------- Foto ---------------*/
+/*--------------- NAVIGATION ---------------*/
+.section-navigation{
+   padding-top: 96px;
+   padding-bottom: 72px;
+}
+.button-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+.button-navigation{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+}
+/*--------------- NAVIGATION ---------------*/
+/*--------------- IMAGES ---------------*/
+.images-list{
+ display: flex;
+ flex-wrap: wrap;
+ row-gap: 48px;
+ column-gap: 24px;
+}
+.work-servises{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+/*--------------- IMAGES ---------------*/
+/*--------------- FOOTER ---------------*/
+
+/*--------------- FOOTER ---------------*/
